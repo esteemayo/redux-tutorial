@@ -1,8 +1,8 @@
 import { useState, useRef } from 'react';
 import { useDispatch } from 'react-redux';
 
-import { LoadingSpinner } from '../assets/icons';
-import { addContact } from '../redux/contact';
+import { LoadingSpinner } from 'assets/icons';
+import { addContact } from 'redux/contact';
 
 const ContactInput = () => {
     const nameInputRef = useRef('');
